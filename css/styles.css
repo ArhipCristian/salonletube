@@ -1693,7 +1693,7 @@ h3 { font-size: clamp(1.25rem, 2.5vw, 1.625rem); }
 
   .main-nav ul li { width: 100%; text-align: center; }
 
-  .main-nav a { font-size: 1.0625rem; display: inline-block; padding: 0.35rem 0; }
+  .main-nav a:not(.btn) { font-size: 1.0625rem; display: inline-block; padding: 0.35rem 0; }
 
   .nav-actions {
     flex-direction: column;
@@ -1708,7 +1708,10 @@ h3 { font-size: clamp(1.25rem, 2.5vw, 1.625rem); }
   .nav-actions .lang-toggle { margin-top: 0.25rem; }
 
   .nav-actions .btn-primary {
+    display: inline-flex;
+    justify-content: center;
     width: min(100%, 280px);
+    text-align: center;
   }
 
   .nav-toggle.open span:nth-child(1) {
