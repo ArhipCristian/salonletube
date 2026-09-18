@@ -31,7 +31,6 @@ window.SalonI18n = {
       'home.hero.sub': 'A hair salon in Old Montreal — cuts, colour and head spa for women and men, plus expert barber services, near the Old Port.',
       'home.hero.book': 'Book Your Experience',
       'home.hero.spa': 'Discover the Head Spa',
-      'home.hero.tagline': 'From precision barber cuts and beard trims to colour, treatments and head spa rituals — enjoy full salon services in a warm, relaxed environment. <a href="tel:+15145444492">Book an experience.</a>',
       'home.hero.alt': 'Salon Le Tube storefront in Old Montreal',
 
       'home.card.team.title': 'Our Team',
@@ -231,7 +230,6 @@ window.SalonI18n = {
       'home.hero.sub': 'Un salon de coiffure au Vieux-Montréal — coupes, coloration et head spa pour femmes et hommes, avec services barbier, près du Vieux-Port.',
       'home.hero.book': 'Réservez votre expérience',
       'home.hero.spa': 'Découvrir le Head Spa',
-      'home.hero.tagline': 'Des coupes barbier et taille de barbe précises à la coloration, aux soins et au head spa — profitez de tous les services d\'un grand salon dans un environnement chaleureux. <a href="tel:+15145444492">Réservez une expérience.</a>',
       'home.hero.alt': 'Devanture du Salon Le Tube au Vieux-Montréal',
 
       'home.card.team.title': 'Notre équipe',
