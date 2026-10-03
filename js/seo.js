@@ -27,10 +27,10 @@ window.SalonSeo = {
           image: this.baseUrl + '/assets/images/hero-original-bg.jpg',
           logo: this.baseUrl + '/assets/images/logo-icon.png',
           description: isFr
-            ? 'Salon de coiffure, barbier et spa capillaire pour femmes et hommes au Vieux-Montréal, près du Vieux-Port. Coupes, barbe, coloration, head spa et produits professionnels depuis 2005.'
-            : 'Hair salon, barbershop and head spa for women and men in Old Montreal, near the Old Port. Haircuts, barber services, colour, scalp rituals and professional products since 2005.',
+            ? 'Salon de coiffure, barbier et spa capillaire pour femmes et hommes au Vieux-Montréal, près du Vieux-Port. Coupes, barbe, coloration, head spa et produits professionnels depuis 2009.'
+            : 'Hair salon, barbershop and head spa for women and men in Old Montreal, near the Old Port. Haircuts, barber services, colour, scalp rituals and professional products since 2009.',
           priceRange: '$$',
-          foundingDate: '2005',
+          foundingDate: '2009',
           address: {
             '@type': 'PostalAddress',
             streetAddress: '400 Rue Saint-Henri',

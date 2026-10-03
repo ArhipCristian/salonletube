@@ -1,5 +1,5 @@
 /* Keep in sync with partials/footer.html */
-window.SalonFooterHTML = '<footer class="site-footer">' +
+window.SalonFooterHTML = '<footer id="site-footer" class="site-footer">' +
   '<div class="container footer-main">' +
     '<div class="footer-map-col">' +
       '<iframe id="footer-map" title="Salon Le Tube location map" data-i18n-title="footer.map.title"' +
@@ -51,12 +51,12 @@ window.SalonFooterHTML = '<footer class="site-footer">' +
       '</a>' +
       '<nav class="footer-nav">' +
         '<a href="index.html" data-i18n="nav.home">Home</a>' +
+        '<a href="about.html" data-i18n="nav.about">About</a>' +
         '<a href="team.html" data-i18n="nav.team">Our Team</a>' +
         '<a href="spa.html" data-i18n="nav.spa">The Spa</a>' +
         '<a href="products.html" data-i18n="nav.products">Products</a>' +
-        '<a href="about.html" data-i18n="nav.about">About</a>' +
       '</nav>' +
-      '<p class="footer-copy" data-i18n="footer.copy">© 2005–2026 Salon Le Tube</p>' +
+      '<p class="footer-copy" data-i18n="footer.copy">© 2009–2026 Salon Le Tube</p>' +
     '</div>' +
   '</div>' +
 '</footer>';

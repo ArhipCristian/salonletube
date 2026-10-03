@@ -22,7 +22,19 @@
     });
 
     mainNav.querySelectorAll('a').forEach(function (link) {
-      link.addEventListener('click', function () {
+      link.addEventListener('click', function (e) {
+        var href = link.getAttribute('href');
+        if (href === '#site-footer') {
+          e.preventDefault();
+          var footer = document.getElementById('site-footer');
+          if (footer) {
+            var headerOffset =
+              parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-height')) || 64;
+            var top = footer.getBoundingClientRect().top + window.scrollY - headerOffset;
+            window.scrollTo({ top: top, behavior: 'smooth' });
+          }
+        }
+
         mainNav.classList.remove('open');
         navToggle.classList.remove('open');
         navToggle.setAttribute('aria-expanded', 'false');
